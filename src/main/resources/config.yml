@@ -1,0 +1,17 @@
+config-version: 1
+
+combat:
+  attack-range: 3.5        # how close before swing
+  scan-range: 24.0         # how far they look for victims lmao
+  tick-interval-ticks: 2   # 2 feels ok, bump if laggy
+  target-priority: nearest # nearest / lowest-health / random
+  move-to-target: true     # needs pathfinder ext from pepe eventually
+  stop-navigation-on-reach: true
+  sprint-while-attacking: true
+  retaliation: true        # punch bot = bot punches back
+  auto-start-on-spawn: false  # leave off unless u hate urself
+
+targets:
+  players: true
+  bots: true
+  bot-vs-bot: true
